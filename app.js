@@ -10,6 +10,12 @@ const idea = require("./routes/ideas");
 // middleware for the routes
 app.use("/api/v1/ideas", idea);
 
+// Require database connection
+const connectDB = require("./db/connection");
+
+// require environment vars
+require("dotenv").config();
+
 const start = async () => {
   try {
     const dbConnection = await connectDB(process.env.MONGO_URI);
