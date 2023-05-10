@@ -12,8 +12,8 @@ const corsOptions ={
    optionSuccessStatus:200,
 }
 
-app.use(cors(corsOptions)) // Use this after the variable declaration
-
+// app.use(cors(corsOptions)) // Use this after the variable declaration
+app.use(express.static('./public'))
 // require the file in the routes directory to use it as a middleware to access the routes
 const idea = require("./routes/ideas");
 

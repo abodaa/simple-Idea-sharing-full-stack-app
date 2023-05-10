@@ -12,14 +12,14 @@ const TaskSchema = new mongoose.Schema({
     required: [true, "You must provide subtitle"],
     trim: true,
   },
-  body: {
-    type: String,
-    required: [true, "You must provide body"],
-    trim: true,
-  },
   name: {
     type: String,
     required: [true, "Please tell us who you are, you can use nicknames"],
+    trim: true,
+  },
+  body: {
+    type: String,
+    required: [true, "You must provide body"],
     trim: true,
   },
 
