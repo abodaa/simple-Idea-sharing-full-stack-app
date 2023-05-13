@@ -5,11 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <section>
+    <section class="edit-form-container">
         <h2 class="title">Edit Idea</h2>
-        <p></p>
+        <form class="form">
+            <div class="form-control">
+        <input
+          type="text"
+          name="title"
+          class="input-title"
+          placeholder="Title | e.g. what is AI?"
+        />
+        <input
+          type="text"
+          name="subtitle"
+          class="input-subtitle"
+          placeholder="Subtitle | e.g. Exploring the trending subject"
+        />
+         <input
+          type="text"
+          name="name"
+          class="input-author"
+          placeholder="Author | e.g. Abraham Bogale"
+        />
+        <textarea
+          type="text"
+          name="body"
+          class="text-area"
+          placeholder="Elaborate your idea here ..."
+        ></textarea>
+        <button type="submit" class="submit-btn">Update Idea</button>
+      </div>
+      <div class="form-alert"></div>
+
+
+        </form>
+
     </section>
+     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./edit.js"></script>
 </body>
 </html>

@@ -144,3 +144,8 @@ width: 28%;
     border-radius: 0.3rem;
     text-align: center;
 }
+
+.edit-form-container{
+    width: 50%;
+    margin: auto;
+}
