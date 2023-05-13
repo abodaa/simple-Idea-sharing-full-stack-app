@@ -29,7 +29,7 @@ const TaskSchema = new mongoose.Schema({
   //   },
 });
 
-// 'Task' here is the collection name we are creating
+// 'Ideas' here is the collection name we are creating
 
 const Model = mongoose.model("Ideas", TaskSchema);
 
