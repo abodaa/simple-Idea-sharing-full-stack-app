@@ -1,18 +1,19 @@
 # simple-Idea-sharing-full-stack-app
 
-# Idea Sharing App
-
 ## Overview
 
-This is a simple web application built with Node.js and React that allows users to share their ideas with others.
-Users can write whatever comes to mind, including titles and descriptions, followed by their name. people can view the ideas of other people.
+Simple Idea Sharing App
+This is a simple idea sharing app built with Node.js, Express, MongoDB, JavaScript, HTML, and CSS. It allows users to create, view,edit and delete on ideas.
+
 
 ## Features
 
 The app includes the following features:
 
-- Idea Creation: Users can create new ideas and add a title, description.
+- Idea Creation: Users can create new ideas and add a title,subtitle and description.
 - Idea Viewing: Users can view all the ideas shared by other users.
+- Idea Editing: Users can edit any Idea from the list
+- Idea deletion: Users can delete any Idea from the list
 
 
 ## Installation
@@ -38,22 +39,25 @@ To run the app locally, follow these steps:
    npm start
    ```
 
-4. Open the app in your browser at http://localhost:3000.
+4. Open the app in your browser at http://localhost:5000.
 
 ## Technologies Used
 
 The app is built with the following technologies:
 
 - Node.js
-- React
+- Vanilla JS
 - Express
 - MongoDB
 - Mongoose
-- Tailwind CSS
+- HTML
+- CSS
 
 ## Contributing
 
 Contributions are welcome! If you find any bugs or want to suggest new features, please open an issue or submit a pull request.
+
+NB: This is merely a practice project with very simple CRUD operations.
 
 ## License
 
@@ -63,4 +67,4 @@ NULL
 
 If you have any questions or comments, feel free to contact me at abrahambogale747@gmail.com
 
-Written by Abraham with the help of AI.
+Written by Abraham.
