@@ -8,46 +8,58 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./normalize.css">
 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
 </head>
 <body>
-    <section>
-        <h1>Idea Sharing App</h1>
-        <h3>Simple Ideas sharing App dedicated to use as a platform for people to share their ideas.</h3>
+  <div class="hero-container">
+
+
+    <section class="hero-intro">
+        <h1 class="hero-title">Do you have a great idea?</h1>
+        <h3 class="hero-subtitle">Hasab is a small web app that makes it easy to share your ideas with others, get feedback, and collaborate on projects.</h3>
     </section>
     <form class="idea-form">
-      <h4>What is in your mind?</h4>
       <div class="form-control">
         <input
           type="text"
           name="title"
           class="input-title"
-          placeholder="e.g. what is AI?"
+          placeholder="Title | e.g. what is AI?"
           required
         />
         <input
           type="text"
           name="subtitle"
           class="input-subtitle"
-          placeholder="e.g. Exploring the trending subject"
+          placeholder="Subtitle | e.g. Exploring the trending subject"
           required
         />
          <input
           type="text"
           name="name"
           class="input-author"
-          placeholder="e.g. Abraham Bogale"
+          placeholder="Author | e.g. Abraham Bogale"
           required
         />
         <textarea
           type="text"
           name="body"
           class="text-area"
+          placeholder="Elaborate your idea here ..."
           required
         ></textarea>
-        <button type="submit" class="btn submit-btn">submit</button>
+        <button type="submit" class="submit-btn">Share Your Idea</button>
       </div>
       <div class="form-alert"></div>
     </form>
+  </div>
 
     <section class="ideas"></section>
     <script

@@ -1,29 +1,146 @@
 .ideas{
-    width: 50%;
+    width: 98%;
     margin: auto;
-    background-color: rgba(221, 231, 233, 0.84);
-    color: black;
-    padding: 4rem;
-    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    
+
 }
 .author{
-    color: green;
-    font-weight: bold;
-    font-size: 0.9rem;
-    background-color: white;
-    width: 15%;
-    padding: 0.2rem 0.5rem;
-    text-align: center;
-    border-radius: 5px;
+    color: #022a3b;
 
 }
+.idea-delete-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.subtitle{
+    color: #464646;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.edit-delete-icon{
+    width: 2rem;
+    transition:all 1s ease-in-out;
+}
+.edit-delete-icon:hover{
+    transition:all 0.6s ease-in-out;
+    transform: scale(1.4);
+}
+.delete-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .idea-form{
-    width: 50%;
+    width: 40%;
     margin: auto;
+    padding-right: 5rem;
 
 }
+
 .form-control{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+}
+input,textarea{
+    padding: 1rem;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+border-radius: 0.5rem;
+}
+textarea:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+.text-area{
+    height: 7rem;
+}
+.submit-btn{
+    border: none;
+    padding: 1rem;
+    background-color: #005073;
+    color: white;
+    font-size: 1.5rem;
+border-radius: 0.5rem;
+
+}
+.submit-btn:hover{
+    background-color: #022a3b;
+    cursor: pointer;
+    
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    margin: auto;
+    margin-bottom: 4rem;
+
+}
+.hero-intro{
+    width: 40%;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+   height: 50vh;
+    padding: 5rem;
+    background-color: #005073;
+    color: azure;
+    border-bottom-right-radius: 1rem;
+}
+
+
+.hero-title{
+font-size: 4rem;
+}
+.hero-subtitle{
+font-size: 1.5rem;
+
+}
+
+.container{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+padding: 2rem;
+border-radius: 1rem;
+width: 28%;
+}
+.user-name-pic{
+    display: flex;
+    align-items: center;
+}
+.user-icon{
+    width: 3rem;
+}
+
+
+.success-notification{
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(66, 117, 66);
+    width: 40%;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.error-notification{
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(234, 132, 132);
+    width: 40%;
+    border-radius: 0.3rem;
+    text-align: center;
 }
