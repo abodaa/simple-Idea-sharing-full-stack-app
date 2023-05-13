@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./normalize.css">
+
 </head>
 <body>
     <section class="edit-form-container">
-        <h2 class="title">Edit Idea</h2>
-        <form class="form">
-            <div class="form-control">
+    <form class="form-control">
+        <div class="back-button">
+          <a href="index.html">
+            <img src="/left-arrow.png" class="edit-delete-icon" alt="user">
+          </a>
+            
+
+          <h2 class="title">Edit Idea</h2>
+        </div>
+
         <input
           type="text"
           name="title"
@@ -37,11 +46,8 @@
           placeholder="Elaborate your idea here ..."
         ></textarea>
         <button type="submit" class="submit-btn">Update Idea</button>
-      </div>
-      <div class="form-alert"></div>
-
-
-        </form>
+      <p class="form-alert"></p>
+    </form>
 
     </section>
      <script

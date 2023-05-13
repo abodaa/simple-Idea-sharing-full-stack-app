@@ -1,6 +1,7 @@
 .ideas{
     width: 98%;
     margin: auto;
+    margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -65,14 +66,16 @@ input:focus{
 }
 .text-area{
     height: 7rem;
+    resize:none
 }
 .submit-btn{
     border: none;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     background-color: #005073;
     color: white;
-    font-size: 1.5rem;
-border-radius: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    width: 10rem;
 
 }
 .submit-btn:hover{
@@ -148,4 +151,11 @@ width: 28%;
 .edit-form-container{
     width: 50%;
     margin: auto;
+    margin-top: 10%;
+}
+
+.back-button{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
 }
